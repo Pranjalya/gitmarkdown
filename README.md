@@ -1,4 +1,4 @@
-# gitmarkdown: Convert Git Repositories to Markdown Documentation
+# gitmarkdown: Convert Folders to LLM - ingestible markdown file
 
 `gitmarkdown` is a command-line tool written in Go that converts the contents of a Git repository (or any directory) into a Markdown document.  It intelligently handles both code and directory structures, making it ideal for generating documentation, project overviews, or quick snapshots of your codebase.
 
