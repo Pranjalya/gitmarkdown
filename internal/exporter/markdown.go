@@ -4,6 +4,10 @@ import (
 	"fmt"
 )
 
+type Exporter interface {
+	Format(relativePath string, content string, language string) string
+}
+
 type MarkdownExporter struct{}
 
 func (me *MarkdownExporter) Format(relativePath, content, language string) string {
