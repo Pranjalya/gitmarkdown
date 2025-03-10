@@ -38,6 +38,22 @@
    sudo yum install wl-clipboard #Fedora/CentOS/RHEL
    ```
 
+### From Binaries
+
+Download the pre-built binaries for your operating system from the [Releases](https://github.com/pranjalya/gitmarkdown/releases) page.  Extract the archive and place the `gitmarkdown` executable in a directory included in your system's `PATH`.
+
+### Using Homebrew (macOS)
+
+```bash
+brew install pranjalya/tap/gitmarkdown
+```
+
+### Using Go
+
+```bash
+go install github.com/pranjalya/gitmarkdown@latest
+```
+
 ### Build from Source (Recommended)
 
 1.  **Clone the repository:**
